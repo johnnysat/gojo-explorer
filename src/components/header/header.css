@@ -1,0 +1,17 @@
+.headerBar{
+    background-color: #000;
+    list-style: none;
+    height: 75px;
+}
+
+.headerBar ul {
+    display: flex;
+    gap: 10%;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: center;
+}
+
+.headerBar a{
+    color: #fff;
+}
