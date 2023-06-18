@@ -3,8 +3,8 @@ import './App.css'
 
 import Header from './components/header/header'
 import Carousel from './components/carousel/carousel'
-import NavBar from './components/navbar/navbar';
 import News from './components/news/news';
+import Footer from './components/footer/footer'
 
 
 function App() {
@@ -23,9 +23,10 @@ function App() {
           subCard={"O jogo de Jujutsu Kaisen, Phanton Pararede, ganhou data de estréia, vídeo de gameplay, link para pré-registro e muito mais! Vem conferir todos os detalhes aqui."} />
         <News titleCard={"RPG - Aoi Todo"}
           subCard={"Confira como ficou a habilidade de Aoi Todo ao ser transformada para RPG aqui. Discussão sobre a dificuldade, suas limitações, formas de uso e interações."} />
-                  <News titleCard={"Teste"}
+        <News titleCard={"Teste"}
           subCard={"Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis.Cevadis im ampola pa arma uma pindureta.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem num gosta di mim que vai caçá sua turmis!"} />
       </div>
+      <Footer />
     </>
   )
 }
