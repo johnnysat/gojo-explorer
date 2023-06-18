@@ -10,8 +10,16 @@
     justify-content: space-around;
     align-items: center;
     vertical-align: center;
+    height: 100%;
+}
+
+.headerBar li {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .headerBar a{
     color: #fff;
+    text-decoration: none;
+
 }
