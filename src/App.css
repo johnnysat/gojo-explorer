@@ -1,0 +1,10 @@
+.titleNews {
+    margin-left: 2.5%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    background-color: #000;
+    color: #fff;
+}
