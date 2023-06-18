@@ -15,7 +15,12 @@ function App() {
       <Carousel />
       <NavBar />
       <h2 className="titleNews">Últimas Notícias</h2>
-      <News />
+      <div className="cardNews">
+        <News titleCard={"Teste"}
+          subCard={"Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis.Cevadis im ampola pa arma uma pindureta.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem num gosta di mim que vai caçá sua turmis!"} />
+        <News titleCard={"Teste"}
+          subCard={"Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis.Cevadis im ampola pa arma uma pindureta.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem num gosta di mim que vai caçá sua turmis!"} />
+      </div>
     </>
   )
 }
